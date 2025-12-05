@@ -30,6 +30,249 @@
             
         </form>
     </div>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Slightly different background for signup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the Sign-Up form (Use a similar style to the login container) */
+.signup-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+    max-width: 450px; /* Slightly wider to accommodate more fields */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Style for all input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #3498db; /* Blue highlight on focus */
+    outline: none;
+}
+
+/* Button Group styles */
+.button-group {
+    display: flex; /* General reset and body styles (same as before) */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               git add ./* General reset and body styles (same as before) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Slightly different background for signup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the Sign-Up form (Use a similar style to the login container) */
+.signup-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+    max-width: 450px; /* Slightly wider to accommodate more fields */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Style for all input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #3498db; /* Blue highlight on focus */
+    outline: none;
+}
+
+/* Button Group styles */
+.button-group {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 25px;
+}
+
+/* Base style for buttons */
+.signup-btn,
+.reset-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    flex-grow: 1;
+}
+
+/* Specific style for the Sign Up button */
+.signup-btn {
+    background-color: #2ecc71; /* Green primary color */
+    color: white;
+    margin-right: 10px;
+}
+
+.signup-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Specific style for the Clear Form button */
+.reset-btn {
+    background-color: #95a5a6; /* Gray secondary color */
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #7f8c8d;
+}
+
+/* Style for the link back to the login page */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+	
+
+    justify-content: space-between; 
+    margin-top: 25px;
+}
+
+/* Base style for buttons */
+.signup-btn,
+.reset-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    flex-grow: 1;
+}
+
+/* Specific style for the Sign Up button */
+.signup-btn {
+    background-color: #2ecc71; /* Green primary color */
+    color: white;
+    margin-right: 10px;
+}
+
+.signup-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Specific style for the Clear Form button */
+.reset-btn {
+    background-color: #95a5a6; /* Gray secondary color */
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #7f8c8d;
+}
+
+/* Style for the link back to the login page */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+	
+
+
 </body>
+
+
 </html>
 
