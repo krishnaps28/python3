@@ -1,6 +1,8 @@
 #print(10//3)
 #print(2**2)
 
+
+
 #a=10
 #a/=1
 #print(a)
@@ -15,11 +17,18 @@
 #a="hello"
 #print("e" in a)
 
+
+
 #a=3
 #if(a%2==0):
 #    print(a,"is even")
 #else:
 #    print(a, " is odd")
+
+
+
+
+
 #a=int(input("enter first number :"))
 #b=int(input("enter second number :"))
 #c=int(input("enter third number :"))
@@ -34,6 +43,9 @@
     #    print(c ,"is larger")
 
 
+
+
+
 #price=float(input("enter the cost price :"))
 #if price > 100000:
  #   tax= price*0.15
@@ -42,6 +54,11 @@
 #else:
  #   tax=price*0.05
 #print("tax to be paid",tax)
+
+
+
+
+
 
 #a=int(input("enter first number :"))
 #b=int(input("enter secomd number :"))
@@ -53,6 +70,11 @@
 #else:
  #   print(c,"is greater")
 
+
+
+
+
+
 #city=str(input("enter thr city :"))
 #if city==delhi:
  #   print("red fort")
@@ -62,6 +84,10 @@
  #   print("jai mahal")
 #else:
  #   print("no monument")
+
+
+
+
 
 #day=int(input("enter the number :"))
 #if day==1:
@@ -77,19 +103,35 @@
 #else:
  #   print("invalid")
 
+
+
+
+
+
 #for i in range(1,11):
  #   print(i)
 
 #   for j in range(4):
  ##  print()
 
+
+
+
 #for i in range(1,101):
  #   if i%5==0:
   #      print("five")
    #    print(i)#
 
-for i in range(1,11):
-   print(i*2)
+
+
+
+
+#for i in range(1,11):
+ #  print(i*2)
+
+
+
+
 
 #n=int(input("enter range :"))
 #total=0
@@ -97,9 +139,16 @@ for i in range(1,11):
 #    total +=i
 #print("sum :",total)
 
+
+
+
+
+
 #n=int(input("enter a number :"))
 #for i in range(1,11):
  #   print(n,"*",i,"=",n*i)
+
+
 
 
 
@@ -111,11 +160,15 @@ for i in range(1,11):
 #print("digits",count)
 
 
+
+
 #s=int(input("enter start :"))
 #e=int(input("enter ending :"))
 #for i in range(s,e):
 #    if i%2 !=0:
 #        print(i)
+
+
 
 
 
@@ -126,3 +179,15 @@ for i in range(1,11):
 
 
 
+
+s=int(input("enter the start range :"))
+e=int(input("enter the end range :"))
+even=0
+odd=0
+for i in range(s,e):
+    if i%2==0:
+        even +=1
+    else:
+        odd +=1
+print("odd numbers ",odd)
+print("even numbers ",even)
