@@ -191,3 +191,49 @@
   #      odd +=1
 #print("odd numbers ",odd)
 #print("even numbers ",even)
+
+
+
+
+#for i in range(0,3):
+#  for j in range(3):
+#    i+=1
+#   print(i,end=" ")
+#print()
+
+
+
+
+
+
+
+#for i in range(1,4):
+#   num=i
+#  for j in range(3):
+#    print(num,end=" ")
+#   num+=i
+# print()
+
+
+
+
+
+for i in range(1,6):
+   for j in range(i):
+      print("*",end=" ")
+
+
+
+
+
+a=65
+for i in range(3):
+   fgitor j in range(3):
+      print(chr(a),end=" ")
+      a+=1
+   print()
+
+
+
+
+
