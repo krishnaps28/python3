@@ -218,22 +218,68 @@
 
 
 
-for i in range(1,6):
-   for j in range(i):
-      print("*",end=" ")
+#for i in range(1,6):
+ #  for j in range(i):
+  #    print("*",end=" ")
 
 
 
 
 
-a=65
-for i in range(3):
-   fgitor j in range(3):
-      print(chr(a),end=" ")
-      a+=1
-   print()
+#a=65
+#for i in range(3):
+ #  fgitor j in range(3): 
+  #    print(chr(a),end=" ")
+   #   a+=1
+  # print()
+
+
+
+
+#word="PYTHON"
+#for i in range(1,7):
+ #   print(" ".join(word[:i]))
 
 
 
 
 
+
+#n=3
+#for i in range(1,4):
+ #   print(""*(n-i)+"*"*i)
+
+
+
+
+#l=[1,2,3,4]
+#for i in l:
+ #  print(i)
+
+
+
+
+
+#l=[1,2,3,4]
+#l.insert(2,10)
+#print(l)
+
+
+
+
+
+
+
+#num=int(input('enter the number of students you want to add :'))
+#student=[]
+#for i in range(1,num+1):
+ #   print('student :',i)
+  #  name=input("enter the name of student :")
+  #  age=int(input('enter the age :'))
+   # student.append([name,age])
+#print(student)
+
+
+# l=[1,2,3,4]
+# l.clear()
+# print(l)
