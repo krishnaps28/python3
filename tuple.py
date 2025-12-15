@@ -16,7 +16,7 @@
 # s.add(7)
 
 
-s={1,2,3,4,5,4,4}
+#s={1,2,3,4,5,4,4}
 #s.add(10)
 #print(s)
 
@@ -34,16 +34,12 @@ s={1,2,3,4,5,4,4}
 # print(s)
 
 
-a=(1,2,3,4,5,6)
-b=(7,8,9,10)
-print(a|b)
-print(a.union(b[11,15,16]))
+# a=(1,2,3,4,5,6)
+# b=(7,8,9,10)
+# print(a.intersection(b))
+# print(a & b)
+# # print(a.union(b[11,15,16]))
 
-
-print(a-b)
-print(a.differenc(b))
-
-
-print(a.symmeric_difference(b))
-print(a)
-
+# a=(1,2,3,4,5,6)
+# b=(7,8,9,10)
+# print(a.differenc(b))
