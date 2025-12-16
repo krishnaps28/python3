@@ -284,7 +284,25 @@
 # l.clear()
 # print(l)
 
-numbers=[1,2,3,4,5,6,7,8,9,10]
-for num in numbers:
-    if num%2==0:
-      print(num)
+# numbers=[1,2,3,4,5,6,7,8,9,10]
+# for num in numbers:
+#     if num%2==0:
+#       print(num)
+
+
+
+
+
+
+
+
+# str="hello world"
+# print(len(str))
+# print(str.capitalize())
+# #print(str.count(l))
+# print(str.startswith(e))
+# print(str.endswith(e))
+# print(str.index(2))
+
+
+d=[{"name":'adujeevotham','author':'benyamin','price':400}{"name":'adujeevotham','author':'benyamin','price'}]

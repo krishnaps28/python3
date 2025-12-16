@@ -1,4 +1,4 @@
- d1={"name":"arjun","roll_no":10,"marks":[70,80,90],"hobies":{"reading","writing"}}
+d1={"name":"arjun","roll_no":10,"marks":[70,80,90],"hobies":{"reading","writing"}}
 # print(d1)
 # d1={"name":"arjun","roll_no":10,"marks":[70,80,90],"hobies":{"reading","writing"}}
 # d1["roll_no"]=1
