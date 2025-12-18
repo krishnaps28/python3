@@ -305,4 +305,34 @@
 # print(str.index(2))
 
 
-d=[{"name":'adujeevotham','author':'benyamin','price':400}{"name":'adujeevotham','author':'benyamin','price'}]
+#sum= lambda a,b:a+b
+#print(sum(2,3))
+
+# a=int(input("enter the number :"))
+# even= lambda num:num%2==0
+# result=even(a)
+# if result:
+#     print(a,'even')
+# else:
+#     print(a,'odd')
+
+
+# l=[1,2,3,4,5]
+# result=list(map(lambda x :x*x,l))
+# print(result)
+
+# def square(x):
+#     return x*x
+# l=[1,2,3,4,5]
+# result=list(map(square,l))
+# print(result)
+
+# l=[1,2,3,4,5,6]
+# result=list(filter(lambda x:x%2==0,l))
+# print(result)
+
+def even(x):
+    return x%2==0
+li=[1,2,3,4,5,6]
+res=list(map(even,li))
+print(res)
