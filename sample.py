@@ -331,8 +331,14 @@
 # result=list(filter(lambda x:x%2==0,l))
 # print(result)
 
-def even(x):
-    return x%2==0
-li=[1,2,3,4,5,6]
-res=list(map(even,li))
-print(res)
+# def even(x):
+#     return x%2==0
+# li=[1,2,3,4,5,6]
+# res=list(filter(even,li))
+# print(res)
+
+# from functools import reduce
+# l=[1,2,3,4,5]
+# sum=reduce(lambda acc,x:acc+x,l)
+# print(sum)
+
